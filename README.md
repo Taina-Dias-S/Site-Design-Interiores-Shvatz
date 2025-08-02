@@ -28,4 +28,5 @@ Durante o desenvolvimento deste projeto, aprofundei meus conhecimentos em:
 - CSS3    
 
 ## 🚀 Como visualizar
+https://taina-dias-s.github.io/Site-Design-Interiores-Shvatz
 
