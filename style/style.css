@@ -29,7 +29,7 @@ body {
 .hdr {
     /*header com a cor preta*/
     background-color: rgba(0, 0, 0, 0.068);
-    
+
 }
 
 
@@ -41,7 +41,8 @@ body {
     /* centraliza tudo */
     align-items: center;
     /* Deixa tudo alinhado no meio na vertical, pra não ficar torto */
-    position: absolute; /*Faz com que o header fique por cima dos outros elementos da página*/
+    position: absolute;
+    /*Faz com que o header fique por cima dos outros elementos da página*/
     width: 100%;
     padding-top: 20px;
     z-index: 10;
@@ -67,62 +68,65 @@ body {
 
 .home {
     height: 100vh;
-    background: url(../img/teste.jpg);
+    background: url(../img/back-g.jpg);
     background-color: rgba(0, 0, 0, 0.685);
     background-blend-mode: overlay;
     display: flex;
-    background-size: cover;       /* Faz a imagem preencher toda a área */
-    background-position: center;  /* Centraliza a imagem */
+    background-size: cover;
+    /* Faz a imagem preencher toda a área */
+    background-position: center;
+    /* Centraliza a imagem */
     background-repeat: no-repeat;
 }
 
-#content-home{
+#content-home {
     display: flex;
     align-items: center;
-   
+
 }
 
-#text-home{
+#text-home {
     padding-left: 5rem;
     justify-content: center;
     padding-right: 1rem;
-   
+
 }
-#text-home p{
+
+#text-home p {
     margin-top: 10px;
     max-width: 500px;
     font-size: clamp(0.9rem, 1vw, 2rem);
     padding-left: 5px;
-    
+
 }
 
 
 
 #text-home h1 {
     color: var(--color-bw);
-  font-size: clamp(2.5rem, 6vw, 4rem);
+    font-size: clamp(2.5rem, 6vw, 4rem);
 
 
 }
 
 
 @media (max-width: 768px) {
-  .hdr section {
-    padding-top: 10px;
-  }
+    .hdr section {
+        padding-top: 10px;
+    }
 
-  #navbar {
-    gap: 25px;
-    left: 0;
-    align-items: center;
-    margin-left: 3%;
-    font-size: 0.9rem;
-  }
+    #navbar {
+        gap: 25px;
+        left: 0;
+        align-items: center;
+        margin-left: 3%;
+        font-size: 0.9rem;
+    }
 
- #text-home {
-padding-left: 1rem;
-max-width: 250px;
- }
+    #text-home {
+        padding-left: 1rem;
+        max-width: 250px;
+    }
 
 }
 
@@ -173,4 +177,3 @@ max-width: 250px;
     position: relative;
     left: 10px;
     /* empurra um pouco pra direita */
-
