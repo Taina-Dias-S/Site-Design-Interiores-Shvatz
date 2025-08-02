@@ -25,8 +25,12 @@ Durante o desenvolvimento deste projeto, aprofundei meus conhecimentos em:
 
 ## 🛠️ Tecnologias Utilizadas
 - HTML5
-- CSS3    
+- CSS3
 
-## 🚀 Como visualizar
+## 🚀 Próximos passos
+
+- Criar as páginas que ainda não foram desenvolvidas.
+
+##  Como visualizar
 https://taina-dias-s.github.io/Site-Design-Interiores-Shvatz
 
